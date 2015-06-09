@@ -1,2 +1,12 @@
+
+
+方案一
+
 在移动端用fixed去定义元素本身是没什么问题的 但是这个元素里面包含了input等需要输入的元素的时候 就会出现问题 在调用软键盘的
 时候会出现很奇怪的效果 这个时候的我的解决方案是 在在输入框获取焦点之前用fixed去定位元素  在获取焦点之后用static去定位元素
+  $(inputEle).focus(function(){$(ele).css("position","static");}).blur(function(){$(ele).css("position","fixed");});
+
+方案二
+
+就是让让页面一屏显示 不在使用fixed(因为ios对它有兼容性问题) 而用absolute去代替 就是不让窗体出现滚动条  就实现了fixed一样的
+效果了
