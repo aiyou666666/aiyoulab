@@ -1,29 +1,44 @@
+0.html5头部meta
 
-iPhone上的Safari(还有些webkit android手机浏览器)会自动对看起来像是电话号码的数字串（包括已经加入连字符或括号格式化过的）添加电话链接，点击之后会询问用户是否想要拨打该号码。如果你不希望开启这个自动识别，可以将它关闭：
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+   <meta content="initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no,width=device-width" name="viewport">
+     <meta name="apple-mobile-web-app-capable" content="yes"/>
+     <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+     <meta name="format-detection" content="telephone=no"/>
+     <meta name="format-detection" content="email=no"/>
+     <!-- QQ浏览器 -->
+     <meta name="x5-page-mode" content="app"/>
+     <meta name="x5-fullscreen" content="true"/>
+
+
+
+1.iPhone上的Safari(还有些webkit android手机浏览器)会自动对看起来像是电话号码的数字串（包括已经加入连字符或括号格式化过的）添加电话链接，点击之后会询问用户是否想要拨打该号码。如果你不希望开启这个自动识别，可以将它关闭：
 <meta name="format-detection" content="telephone=no" />
 如果你关闭自动识别后，又希望某些电话号码能够链接到iPhone的拨号功能，那么可以通过这样来声明电话链接：
 <a href="tel:13800138000">13800138000</a>
 
-指定浏览器
+2.指定浏览器
 <meta http-equiv="X-UA-Compatible" content="IE=8"/>
 
- 去除url的控件条
- setTimeout(scrollTo,0,0,0);
-请注意，这句代码必须放在window.onload里才能够正常的工作，
-而且你的当前文档的内容高度必须是高于窗口的高度时，这句代码才能有效的执行。
+ 3.去除url的控件条
+    setTimeout(scrollTo,0,0,0);请注意，这句代码必须放在window.onload里才能够正常的工作，而且你的当前文档的内容高度必须     是高于窗口的高度时，这句代码才能有效的执行。
 
-移动版本webkit为input元素提供了autocapitalize属性，通过指定autocapitalize=”off”来关闭键盘默认首字母大写
+ 4.移动版本webkit为input元素提供了autocapitalize属性，通过指定autocapitalize=”off”来关闭键盘默认首字母大写
 
-多行文本省略号。。。
-display: -webkit-box; 必须结合的属性 ，将对象作为弹性伸缩盒子模型显示 。
--webkit-box-orient 必须结合的属性 ，设置或检索伸缩盒对象的子元素的排列方式 。
-text-overflow: ellipsis;，可以用来多行文本的情况下，用省略号“…”隐藏超出范围的文本 。
-overflow : hidden;
-text-overflow: ellipsis;
-display: -webkit-box;
--webkit-line-clamp: 2;
--webkit-box-orient: vertical;
+5 多行文本省略号。。。
+    display: -webkit-box; 必须结合的属性 ，将对象作为弹性伸缩盒子模型显示 。
+    -webkit-box-orient 必须结合的属性 ，设置或检索伸缩盒对象的子元素的排列方式 。
+    text-overflow: ellipsis;，可以用来多行文本的情况下，用省略号“…”隐藏超出范围的文本 。
+    overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
 
-解决手机端元素滚动迟钝的问题
+6.解决手机端元素滚动迟钝的问题
+   overflow:scroll;-webkit-overflow-scrolling:touch;
 
-overflow:scroll;-webkit-overflow-scrolling:touch;
+
+
+
+
