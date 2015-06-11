@@ -35,7 +35,7 @@
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
 
-6.解决手机端元素滚动迟钝的问题
+6.解决手机端非body元素滚动迟钝的问题
    overflow:scroll;-webkit-overflow-scrolling:touch;
 
 
