@@ -40,7 +40,8 @@
    
 7.在父元素中 两个 display:inline-block子元素 25% 75%换行了的问题因为两个元素之间存在换行符导致的换行 解决方案是在父元素中加上 font-size:0px;或者在两个元素结束标签和开始标签无缝链接上 ^_^
 
-
+8.去除手机端高亮显示点击元素
+ *{-webkit-tap-highlight-color: rgba(0,0,0,0);-webkit-tap-highlight-color: transparent(安卓的写法);}
 
 
 
