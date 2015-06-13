@@ -44,5 +44,10 @@
  css3的属性
  *{-webkit-tap-highlight-color: rgba(0,0,0,0);-webkit-tap-highlight-color: transparent(安卓的写法);}
 
-
+9.处理因为float元素后面元素位置错位
+ 方案一 在float元素后面加一个元素 加上样式{ clear:both;width:0px;height:0px;}
+ 方案二 给float元素加上 float元素：after{content:'';clear:both;}
+ 
+ 
+ 
 
