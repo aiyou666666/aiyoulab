@@ -48,6 +48,10 @@
  方案一 在float元素后面加一个元素 加上样式{ clear:both;width:0px;height:0px;}
  方案二 给float元素加上 float元素：after{content:'';clear:both;}
  
- 
+ 10.img 标签下多余空白的解决方法
+    1.将图片转换为块级对象 display:block;
+    2.设置父对象的文字大小为0px font-size:0px;
+    3.设置图片的浮动属性 float:left;
+    
  
 
