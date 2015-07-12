@@ -61,3 +61,18 @@
 12.关于css外边距合并的问题
  http://blog.sina.com.cn/s/blog_601b97ee0101b8xe.html
 
+13.弹性盒布局
+ 使用display属性定义盒的类型
+ display:box;指定盒布局
+ box-orient指定多个元素的排列方向
+ box-ordinal-ground改变各元素的排列顺序
+ box-flex:自适应 使其宽度和高度自动扩大
+ box-pack 和box-align指定水平方向与垂直方向的对齐方式可以利用这两个属性进行文字和图片的水平和垂直方向的居中对齐
+ 
+ 
+
+
+
+
+ 
+
