@@ -1,0 +1,3 @@
+Bug背景：关于在table设置边框的问题 利用 cellspacing设置td th的边框 利用td和th的颜色差来设置边框
+那么问题来啦
+bug1:thead 和tbody两种背景色  导致有两种颜色的边框，设置table背景色只能的到一种颜色的边框 设置thead 和tbody没有效果
