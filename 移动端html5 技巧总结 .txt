@@ -70,7 +70,7 @@
  box-pack 和box-align指定水平方向与垂直方向的对齐方式可以利用这两个属性进行文字和图片的水平和垂直方向的居中对齐
  
  13.模块化加载
-  requirejs
+  requirejs angular-ui-router  ui-view:位置占位符 嵌套路由
 
 
 
