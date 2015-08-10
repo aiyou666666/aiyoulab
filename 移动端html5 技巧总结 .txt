@@ -72,7 +72,7 @@
  13.模块化加载
   requirejs angular-ui-router  ui-view:位置占位符 嵌套路由 directive指令的本质其实是一个替换过程  
   compile阶段进行标签解析和变换，link阶段进行数据绑定等操作
-
+  angularJs五大特性 1.双向数据绑定  2.模版 3.指令 4.mvc 5.依赖注入
 
 
 
