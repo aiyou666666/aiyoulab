@@ -9,6 +9,8 @@
      <!-- QQ浏览器 -->
      <meta name="x5-page-mode" content="app"/>
      <meta name="x5-fullscreen" content="true"/>
+     <!--uc浏览器-->
+     <meta name="full-screen" content="yes">
 
 
 
