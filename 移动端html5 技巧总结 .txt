@@ -81,5 +81,29 @@
 http://ljinkai.github.io/2015/06/06/mobile-web-skill/
  
  14 uc浏览器针对overflow:auto有兼容性问题 需要 overflow:scorll
+ 15关于关闭移动端的默认事件并恢复的方法
+   on();off();
+ 16 正则判断纯数字和纯字母
+ var isNumOrLette=function(a){
+		    	 if (/[a-zA-Z]+/.test(a) && /[0-9]+/.test(a) && /\W+\D+/.test(a)) {
+						return true;
+					} else {
+						if (/[a-zA-Z]+/.test(a) && /[0-9]+/.test(a)) {
+							return true;
+						} else {
+							if (/\[a-zA-Z]+/.test(a) && /\W+\D+/.test(a)) {
+								return true;
+							} else {
+								if (/[0-9]+/.test(a) && /\W+\D+/.test(a)) {
+									return true;
+								} else {
+									return false;
+								}
+							}
+						}
+					}
+		    	 return false;
+		     }		
+ 
  
 
